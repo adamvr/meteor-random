@@ -3,6 +3,9 @@
   "version": "0.0.3",
   "description": "Meteor's Random Package for Straight Node",
   "main": "index.js",
+  "bin": {
+    "meteor-random": "./bin.js"
+  },
   "scripts": {
     "test": "node test.js"
   },
